@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d85dfdd9c69c346a321c809b400736, type: 3}
+  m_Name: Chest
+  m_EditorClassIdentifier:
+  setAnimationIdle: 0
+  index: 29
+  prefab: {fileID: 1243039825558703, guid: 0b59c2998da692040a7065dfb3c92b5a, type: 2}
+  sprite: {fileID: 21300000, guid: 14d923013e1b0a748bc8d8d005002235, type: 2}
+  stackSize: 1
+  displayName: Chest
+  displayDescription: Stores items
+  useButtonName: LeftClick

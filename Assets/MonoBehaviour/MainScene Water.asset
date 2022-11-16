@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da9fb499469ef0418f04a3a5ce2738f, type: 3}
+  m_Name: MainScene Water
+  m_EditorClassIdentifier:
+  shaders:
+  - {fileID: 4800000, guid: e1f2a6cc29519f141bdabc321dc07ec5, type: 3}
+  - {fileID: 4800000, guid: a56c88d5f3a741943a91c6d3c59b7a71, type: 3}
+  - {fileID: 4800000, guid: 5919b4b912d7f0449b44c5929175c3ba, type: 3}
+  - {fileID: 4800000, guid: 4136a1bc28cfc6843bc8f09377a4fd6b, type: 3}
+  - {fileID: 4800000, guid: aeb30873bae7f0b4e9009e6ce5312e58, type: 3}
+  - {fileID: 4800000, guid: 6b08729650c4929499277353719b4c12, type: 3}
+  - {fileID: 4800000, guid: de82b7a10ec81ae438a5c20dcbeb74d7, type: 3}
+  - {fileID: 4800000, guid: b526f5788d37822489335d8c4420aa5e, type: 3}
+  - {fileID: 4800000, guid: 1fefd04abb29a0447af1b497c9548659, type: 3}
+  - {fileID: 4800000, guid: 8b3f6fef2a404c147a6c1dbf878a6f98, type: 3}

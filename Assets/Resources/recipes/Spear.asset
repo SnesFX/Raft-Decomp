@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e495df1e82c46b4caf62d996b02144b, type: 3}
+  m_Name: Spear
+  m_EditorClassIdentifier:
+  craftingCategory: 0
+  cost:
+  - item: {fileID: 11400000, guid: be32998e027ec834a944519dc71a0974, type: 2}
+    amount: 4
+  - item: {fileID: 11400000, guid: 3ad5fc03d12b70e43bd3abb168e0a08f, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: db960487248f87b408ae20c0873f9ddd, type: 2}
+    amount: 4
+  itemToCraft:
+    item: {fileID: 11400000, guid: 613e019390c52714d81432902d4252db, type: 2}
+    amount: 1

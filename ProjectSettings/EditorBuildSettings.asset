@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Semihs scener/MainMenuScene.unity
+    guid: 35aec855c776c3642b968e565fa62615
+  - enabled: 1
+    path: Assets/Scenes/Semihs scener/MainScene.unity
+    guid: 16ad99aab7e169a44832e767967af379

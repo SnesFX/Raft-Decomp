@@ -1,0 +1,426 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!94 &1
+ScriptMapper:
+  m_ObjectHideFlags: 0
+  m_Shaders:
+    m_ObjectToName:
+    - first: {fileID: 69, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-DeferredShading
+    - first: {fileID: 74, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-DeferredReflections
+    - first: {fileID: 64, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-ScreenSpaceShadows
+    - first: {fileID: 63, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-PrePassLighting
+    - first: {fileID: 62, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-DepthNormalsTexture
+    - first: {fileID: 75, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-MotionVectors
+    - first: {fileID: 105, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-Halo
+    - first: {fileID: 102, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-Flare
+    - first: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+      second: Legacy Shaders/Diffuse
+    - first: {fileID: 15104, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/CubeBlur
+    - first: {fileID: 15105, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/CubeCopy
+    - first: {fileID: 15106, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/CubeBlend
+    - first: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+      second: Sprites/Default
+    - first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+      second: UI/Default
+    - first: {fileID: 10782, guid: 0000000000000000f000000000000000, type: 0}
+      second: UI/Default Font
+    - first: {fileID: 17, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/InternalErrorShader
+    - first: {fileID: 68, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/InternalClear
+    - first: {fileID: 69, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/Internal-Colored
+    - first: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
+      second: GUI/Text Shader
+    - first: {fileID: 10755, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/FrameDebuggerRenderTargetDisplay
+    - first: {fileID: 19, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-StencilWrite
+    - first: {fileID: 65, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-CombineDepthNormals
+    - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/BlitCopy
+    - first: {fileID: 67, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/BlitCopyDepth
+    - first: {fileID: 68, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/ConvertTexture
+    - first: {fileID: 0}
+      second: Standard (Specular setup)
+    - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      second: Standard
+    - first: {fileID: 6, guid: 0000000000000000f000000000000000, type: 0}
+      second: Legacy Shaders/VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Diffuse Fast
+    - first: {fileID: 0}
+      second: Legacy Shaders/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Bumped Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Diffuse Detail
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/Bumped Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Bumped Unlit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Bumped VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Bumped Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Bumped Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Cutout/VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Cutout/Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Cutout/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Cutout/Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Cutout/Bumped Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Parallax Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Parallax Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/Parallax Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/Parallax Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Parallax Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Parallax Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Parallax Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Parallax Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Cutout/Soft Edge Unlit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Decal
+    - first: {fileID: 0}
+      second: FX/Flare
+    - first: {fileID: 0}
+      second: Skybox/Cubemap
+    - first: {fileID: 0}
+      second: Skybox/6 Sided
+    - first: {fileID: 0}
+      second: Skybox/Procedural
+    - first: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+      second: Particles/Additive
+    - first: {fileID: 0}
+      second: Particles/~Additive-Multiply
+    - first: {fileID: 202, guid: 0000000000000000f000000000000000, type: 0}
+      second: Particles/Additive (Soft)
+    - first: {fileID: 203, guid: 0000000000000000f000000000000000, type: 0}
+      second: Particles/Alpha Blended
+    - first: {fileID: 0}
+      second: Particles/Multiply
+    - first: {fileID: 0}
+      second: Particles/Multiply (Double)
+    - first: {fileID: 0}
+      second: Particles/Alpha Blended Premultiply
+    - first: {fileID: 208, guid: 0000000000000000f000000000000000, type: 0}
+      second: Particles/VertexLit Blended
+    - first: {fileID: 0}
+      second: Particles/Anim Alpha Blended
+    - first: {fileID: 0}
+      second: Sprites/Diffuse
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Details/Vertexlit
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Details/WavingDoublePass
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Details/BillboardWavingDoublePass
+    - first: {fileID: 0}
+      second: Nature/Terrain/Diffuse
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Splatmap/Diffuse-AddPass
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/BillboardTree
+    - first: {fileID: 0}
+      second: Legacy Shaders/Lightmapped/VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Lightmapped/Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Lightmapped/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Lightmapped/Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Lightmapped/Bumped Specular
+    - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-GUITextureClip
+    - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-GUITextureClipText
+    - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-GUITexture
+    - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-GUITextureBlit
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Soft Occlusion Bark Rendertex
+    - first: {fileID: 0}
+      second: Nature/Tree Soft Occlusion Bark
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Soft Occlusion Leaves Rendertex
+    - first: {fileID: 0}
+      second: Nature/Tree Soft Occlusion Leaves
+    - first: {fileID: 0}
+      second: Nature/Tree Creator Bark
+    - first: {fileID: 0}
+      second: Nature/Tree Creator Leaves
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Bark Rendertex
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Leaves Rendertex
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Bark Optimized
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Leaves Optimized
+    - first: {fileID: 0}
+      second: Nature/Tree Creator Leaves Fast
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Leaves Fast Optimized
+    - first: {fileID: 0}
+      second: Nature/Terrain/Specular
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Splatmap/Specular-AddPass
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Splatmap/Specular-Base
+    - first: {fileID: 0}
+      second: Nature/Terrain/Standard
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Splatmap/Standard-AddPass
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Splatmap/Standard-Base
+    - first: {fileID: 0}
+      second: Mobile/Skybox
+    - first: {fileID: 0}
+      second: Mobile/VertexLit
+    - first: {fileID: 0}
+      second: Mobile/Diffuse
+    - first: {fileID: 0}
+      second: Mobile/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Mobile/Bumped Specular
+    - first: {fileID: 0}
+      second: Mobile/Bumped Specular (1 Directional Light)
+    - first: {fileID: 0}
+      second: Mobile/VertexLit (Only Directional Lights)
+    - first: {fileID: 0}
+      second: Mobile/Unlit (Supports Lightmap)
+    - first: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
+      second: Mobile/Particles/Additive
+    - first: {fileID: 0}
+      second: Mobile/Particles/Alpha Blended
+    - first: {fileID: 0}
+      second: Mobile/Particles/VertexLit Blended
+    - first: {fileID: 0}
+      second: Mobile/Particles/Multiply
+    - first: {fileID: 0}
+      second: Unlit/Transparent
+    - first: {fileID: 0}
+      second: Unlit/Transparent Cutout
+    - first: {fileID: 0}
+      second: Unlit/Texture
+    - first: {fileID: 0}
+      second: Unlit/Color
+    - first: {fileID: 0}
+      second: UI/Unlit/Transparent
+    - first: {fileID: 0}
+      second: UI/Unlit/Detail
+    - first: {fileID: 0}
+      second: UI/Unlit/Text
+    - first: {fileID: 0}
+      second: UI/Unlit/Text Detail
+    - first: {fileID: 0}
+      second: UI/Lit/Transparent
+    - first: {fileID: 0}
+      second: UI/Lit/Bumped
+    - first: {fileID: 0}
+      second: UI/Lit/Detail
+    - first: {fileID: 0}
+      second: UI/Lit/Refraction
+    - first: {fileID: 0}
+      second: UI/Lit/Refraction Detail
+    - first: {fileID: 0}
+      second: UI/DefaultETC1
+    - first: {fileID: 0}
+      second: Nature/SpeedTree
+    - first: {fileID: 0}
+      second: Nature/SpeedTree Billboard
+    - first: {fileID: 0}
+      second: Hidden/GIDebug/TextureUV
+    - first: {fileID: 0}
+      second: Hidden/GIDebug/ShowLightMask
+    - first: {fileID: 0}
+      second: Hidden/GIDebug/UV1sAsPositions
+    - first: {fileID: 0}
+      second: Hidden/GIDebug/VertexColors
+    - first: {fileID: 0}
+      second: VR/SpatialMapping/Occlusion
+    - first: {fileID: 0}
+      second: VR/SpatialMapping/Wireframe
+    - first: {fileID: 15304, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/VR/BlitCopyFromTexArray
+    - first: {fileID: 0}
+      second: Hidden/VR/Internal-VRDistortion
+    - first: {fileID: 16000, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/VideoDecode
+    - first: {fileID: 0}
+      second: Hidden/VideoDecodeOSX
+    - first: {fileID: 0}
+      second: Hidden/VideoDecodeAndroid
+    - first: {fileID: 4800000, guid: 600dd0c1149469d4a93e5834ac99ad27, type: 3}
+      second: Hidden/LensFlareCreate
+    - first: {fileID: 4800000, guid: 99b4a9509e5510544a7339cec96a45a9, type: 3}
+      second: Hidden/Image Effects/Cinematic/Bloom
+    - first: {fileID: 4800000, guid: 1a2c4c15217676e4db2e7504d0b5db29, type: 3}
+      second: Hidden/TonemappingColorGradingHistogram
+    - first: {fileID: 4800000, guid: c64c5d65e01109047abe542428677409, type: 3}
+      second: Hidden/TonemappingColorGrading
+    - first: {fileID: 4800000, guid: 50c7c31e5d3824f4d80b98a4086641d2, type: 3}
+      second: Hidden/SunShaftsComposite
+    - first: {fileID: 4800000, guid: 4c874184828b7b94ea8c4752a730a6f0, type: 3}
+      second: Hidden/SimpleClear
+    - first: {fileID: 4800000, guid: d5441177d06071f48b1f799c31a6f20f, type: 3}
+      second: Hidden/SSAA
+    - first: {fileID: 4800000, guid: 8837b3022b2da5c469025d445ee81d58, type: 3}
+      second: Hidden/DLAA
+    - first: {fileID: 4800000, guid: 6fe6900e607782c4a86a955baab49cf2, type: 3}
+      second: Hidden/NFAA
+    - first: {fileID: 4800000, guid: 9c8817af8e5131b40b1440143ba88e89, type: 3}
+      second: Hidden/FXAA Preset 2
+    - first: {fileID: 4800000, guid: f1e3e276338abd2448c41259a5a055cd, type: 3}
+      second: Hidden/FXAA Preset 3
+    - first: {fileID: 4800000, guid: 6581c348c967b304e98b450bc84f2c33, type: 3}
+      second: Hidden/FXAA II
+    - first: {fileID: 4800000, guid: bb4856de28875da46a5f4df37f6258d8, type: 3}
+      second: Hidden/FXAA III (Console)
+    - first: {fileID: 4800000, guid: 53b98f41fa018b44f92e6ae9192a8715, type: 3}
+      second: Hidden/BlendForBloom
+    - first: {fileID: 4800000, guid: d5c9526ee1157a140b39c3389b951bd9, type: 3}
+      second: Hidden/BlurAndFlares
+    - first: {fileID: 4800000, guid: 7ba1f2cf37ab03944b6b39669dc22a9d, type: 3}
+      second: Hidden/BrightPassFilter2
+    - first: {fileID: 4800000, guid: 65c6cf8565aca1440919ac27aaeeff95, type: 3}
+      second: Hidden/DepthOfField/DepthOfField
+    - first: {fileID: 4800000, guid: 056c7fd7ab9a06b4c8103af2ee57b652, type: 3}
+      second: Hidden/DepthOfField/MedianFilter
+    - first: {fileID: 4800000, guid: ea6ee6bc72b3a9c498b333e2d651fdfe, type: 3}
+      second: Hidden/DepthOfField/BokehSplatting
+    - first: {fileID: 4800000, guid: 26811bbbe16b69249884709f31b3e6c2, type: 3}
+      second: Hidden/Fast Approximate Anti-aliasing
+    - first: {fileID: 4800000, guid: 8610e8e3e2fab564d909418ef401d7db, type: 3}
+      second: Hidden/Subpixel Morphological Anti-aliasing
+    - first: {fileID: 4800000, guid: c4532dd0578c9e54786bf37fdf6b330e, type: 3}
+      second: Hidden/SSAO
+    - first: {fileID: 4800000, guid: 132075ace5fc06b489053c1df7194aea, type: 3}
+      second: Hidden/ScreenSpaceReflection
+    - first: {fileID: 4800000, guid: 6c3d94f326b9fc4458ead19856ba7891, type: 3}
+      second: Hidden/Image Effects/Cinematic/AmbientOcclusion
+    - first: {fileID: 4800000, guid: 2aeb0fcfee44d6f4b8f6eb634c6be751, type: 3}
+      second: Hidden/LensAberrations
+    - first: {fileID: 4800000, guid: b9aaf466bfc242d4ba02c8f8ce406d07, type: 3}
+      second: Shader Forge/Walls
+    - first: {fileID: 4800000, guid: 3f6840007d356544aa8bd11dcbea2d5c, type: 3}
+      second: PlayWay Water/Depth/CopyMix
+    - first: {fileID: 4800000, guid: c618d4872091b3b438197df4d5172116, type: 3}
+      second: PlayWay Water/Volumes/Front Simple
+    - first: {fileID: 4800000, guid: 5919b4b912d7f0449b44c5929175c3ba, type: 3}
+      second: PlayWay Water/Variations/Water _ALPHABLEND_ON _CUBEMAP_REFLECTIONS _INCLUDE_SLOPE_VARIANCE _NORMALMAP _PLANAR_REFLECTIONS _VOLUMETRIC_LIGHTING _WATER_RECEIVE_SHADOWS _WATER_REFRACTION _WAVES_FFT
+    - first: {fileID: 4800000, guid: 4136a1bc28cfc6843bc8f09377a4fd6b, type: 3}
+      second: PlayWay Water/Variations/Water _ALPHABLEND_ON _CUBEMAP_REFLECTIONS _INCLUDE_SLOPE_VARIANCE _NORMALMAP _PLANAR_REFLECTIONS _VOLUMETRIC_LIGHTING _WATER_REFRACTION _WAVES_FFT
+    - first: {fileID: 4800000, guid: e447f0cabff0e5d45b9c51bb5ab24a60, type: 3}
+      second: azure[Sky]/azure[Sky]_ProceduralClouds
+    - first: {fileID: 4800000, guid: dd0113fd19700f849aa1d836023537ff, type: 3}
+      second: PlayWay Water/Depth/Water Depth
+    - first: {fileID: 4800000, guid: 33e4c9283692d364eb9c3c8af3c80b7c, type: 3}
+      second: Shader Forge/Fatique2
+    - first: {fileID: 4800000, guid: 4b6247735daf8594ebcb2ce579544f4a, type: 3}
+      second: PlayWay Water/Base/FFT
+    - first: {fileID: 4800000, guid: 1fefd04abb29a0447af1b497c9548659, type: 3}
+      second: PlayWay Water/Variations/Water _ALPHABLEND_ON _CUBEMAP_REFLECTIONS _INCLUDE_SLOPE_VARIANCE _NORMALMAP _PLANAR_REFLECTIONS_HQ _VOLUMETRIC_LIGHTING _WATER_RECEIVE_SHADOWS _WATER_REFRACTION _WAVES_FFT
+    - first: {fileID: 4800000, guid: a56c88d5f3a741943a91c6d3c59b7a71, type: 3}
+      second: PlayWay Water/Variations/Water _ALPHABLEND_ON _CUBEMAP_REFLECTIONS _INCLUDE_SLOPE_VARIANCE _NORMALMAP _PLANAR_REFLECTIONS _VOLUMETRIC_LIGHTING _WATER_FOAM_WS _WATER_REFRACTION _WAVES_FFT
+    - first: {fileID: 4800000, guid: 3e087eb32fdb67f4082d44f35c17746d, type: 3}
+      second: PlayWay Water/Standard
+    - first: {fileID: 4800000, guid: 3a5661cea1a52764d9a45651ae5d7cb5, type: 3}
+      second: PlayWay Water/Volumes/Front
+    - first: {fileID: 4800000, guid: 891c2f245968e644281d891c1b9c4ba5, type: 3}
+      second: PlayWay Water/Spectrum/Water Spectrum
+    - first: {fileID: 4800000, guid: b526f5788d37822489335d8c4420aa5e, type: 3}
+      second: PlayWay Water/Variations/Water _ALPHABLEND_ON _CUBEMAP_REFLECTIONS _INCLUDE_SLOPE_VARIANCE _NORMALMAP _PLANAR_REFLECTIONS_HQ _VOLUMETRIC_LIGHTING _WATER_FOAM_WS _WATER_REFRACTION _WAVES_FFT
+    - first: {fileID: 4800000, guid: 22abbe2671194244d85f6d052089203c, type: 3}
+      second: azure[Sky]/azure[Moon]
+    - first: {fileID: 4800000, guid: 9b08994a264cda14abde37f12c455cae, type: 3}
+      second: azure[Sky]/azure[Fog]
+    - first: {fileID: 4800000, guid: 74e5a31ad8b347341992a9f98b861384, type: 3}
+      second: Shader Forge/DepthTest
+    - first: {fileID: 4800000, guid: 124b18fd304dccf41ae2c9b63e89dc67, type: 3}
+      second: PlayWay Water/Standard Volume
+    - first: {fileID: 4800000, guid: ba933d656e97b014cab347a41418a0ec, type: 3}
+      second: PlayWay Water/Utilities/FFT Utilities
+    - first: {fileID: 4800000, guid: 13cdfc69a2c20944082a2312e67bbd65, type: 3}
+      second: PlayWay Water/Utility/ShadowEnforcer
+    - first: {fileID: 4800000, guid: 6b08729650c4929499277353719b4c12, type: 3}
+      second: PlayWay Water/Variations/Water Volume _ALPHABLEND_ON _CUBEMAP_REFLECTIONS _VOLUMETRIC_LIGHTING _WATER_REFRACTION _WAVES_FFT
+    - first: {fileID: 4800000, guid: 88419d0a31cce1742827599544ae5b49, type: 3}
+      second: Shader Forge/Palmtree
+    - first: {fileID: 4800000, guid: 2b601887dc15c1a41a2abb8c4f5f7541, type: 3}
+      second: PlayWay Water/Utilities/PlanarReflection - Utilities
+    - first: {fileID: 4800000, guid: 8b3f6fef2a404c147a6c1dbf878a6f98, type: 3}
+      second: PlayWay Water/Variations/Water _ALPHABLEND_ON _CUBEMAP_REFLECTIONS _INCLUDE_SLOPE_VARIANCE _NORMALMAP _PLANAR_REFLECTIONS_HQ _VOLUMETRIC_LIGHTING _WATER_REFRACTION _WAVES_FFT
+    - first: {fileID: 4800000, guid: aeb30873bae7f0b4e9009e6ce5312e58, type: 3}
+      second: PlayWay Water/Variations/Water Volume _ALPHABLEND_ON _CUBEMAP_REFLECTIONS _VOLUMETRIC_LIGHTING _WATER_RECEIVE_SHADOWS _WATER_REFRACTION _WAVES_FFT
+    - first: {fileID: 4800000, guid: 1d4be36cba08ae947a81925f0b80813c, type: 3}
+      second: PlayWay Water/Volumes/Back
+    - first: {fileID: 4800000, guid: e1f2a6cc29519f141bdabc321dc07ec5, type: 3}
+      second: PlayWay Water/Variations/Water _ALPHABLEND_ON _CUBEMAP_REFLECTIONS _INCLUDE_SLOPE_VARIANCE _NORMALMAP _PLANAR_REFLECTIONS _VOLUMETRIC_LIGHTING _WATER_FOAM_WS _WATER_RECEIVE_SHADOWS _WATER_REFRACTION _WAVES_FFT
+    - first: {fileID: 4800000, guid: de82b7a10ec81ae438a5c20dcbeb74d7, type: 3}
+      second: PlayWay Water/Variations/Water _ALPHABLEND_ON _CUBEMAP_REFLECTIONS _INCLUDE_SLOPE_VARIANCE _NORMALMAP _PLANAR_REFLECTIONS_HQ _VOLUMETRIC_LIGHTING _WATER_FOAM_WS _WATER_RECEIVE_SHADOWS _WATER_REFRACTION _WAVES_FFT
+    - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-GUIRoundedRect
+    - first: {fileID: 10757, guid: 0000000000000000f000000000000000, type: 0}
+      second: Sprites/Mask
+    - first: {fileID: 0}
+      second: Hidden/UI/CompositeOverdraw
+    - first: {fileID: 0}
+      second: Hidden/UI/Overdraw
+  m_PreloadShaders: 0

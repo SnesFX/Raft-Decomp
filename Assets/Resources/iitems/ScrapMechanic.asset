@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d85dfdd9c69c346a321c809b400736, type: 3}
+  m_Name: ScrapMechanic
+  m_EditorClassIdentifier:
+  setAnimationIdle: 0
+  index: 38
+  prefab: {fileID: 1029344460353645, guid: 22cad870a7745c94e9b0f1c0cad4a5d3, type: 2}
+  sprite: {fileID: 21300000, guid: 0cabfc6b451086247950895e9c0e85e5, type: 2}
+  stackSize: 1
+  displayName: Scrap Mechanic Duck
+  displayDescription: A trophy... seems to originate from the game Scrap Mechanic. It might look good on a raft
+  useButtonName: LeftClick
