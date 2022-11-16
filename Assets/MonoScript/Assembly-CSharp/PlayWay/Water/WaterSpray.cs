@@ -212,7 +212,7 @@ namespace PlayWay.Water
 			}
 			if (particlesInfo == null)
 			{
-				particlesInfo = new ComputeBuffer(1, 16, ComputeBufferType.DrawIndirect);
+				particlesInfo = new ComputeBuffer(1, 16, ComputeBufferType.IndirectArguments);
 				int[] data = new int[4] { 0, 1, 0, 0 };
 				particlesInfo.SetData(data);
 			}

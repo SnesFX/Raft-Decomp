@@ -259,7 +259,7 @@ namespace PlayWay.Water
 			projection[6] = vector.y - projection[7];
 			projection[10] = vector.z - projection[11];
 			projection[14] = vector.w - projection[15];
-			if (VRSettings.enabled)
+			if (UnityEngine.XR.XRSettings.enabled)
 			{
 				projection[2] = 0f;
 				projection[6] = 0f;
