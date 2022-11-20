@@ -8,6 +8,6 @@
 
 # Credits
 
-- UE4Pak - The Decomp
+- Zero - The Decomp
 
 - Raft Team - Making Raft lmao
