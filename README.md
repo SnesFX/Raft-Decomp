@@ -8,6 +8,6 @@
 
 # Credits
 
-- Zero - The Decomp
+- SnesFX - The Decomp
 
 - Raft Team - Making Raft lmao
